@@ -35,6 +35,7 @@ class MainWindow {
                 // TODO - remove this
                 allowRunningInsecureContent: true,
                 webSecurity: false,
+                devTools: false,
             },
         })
     }

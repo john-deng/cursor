@@ -349,7 +349,6 @@ export function TitleBar({
                 </div>
             )}
             <div className="titlebar__right_filler"></div>
-            {isWindows && <WindowsFrameButtons />}
         </div>
     )
 }

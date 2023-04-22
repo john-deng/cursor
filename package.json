@@ -19,7 +19,7 @@
         "package": "electron-forge package",
         "precommit": "pretty-quick --staged",
         "prepare": "cd .. && husky install .husky",
-        "start": "electron-forge start",
+        "start": "electron-forge start -- --no-sandbox",
         "test": "jest",
         "todesktop:beforeInstall": "./scripts/beforeInstall.js"
     },
